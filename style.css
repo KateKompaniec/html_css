@@ -45,7 +45,7 @@ h3{
 
 img{
     width: 35%;
-    margin: 0 auto;
+    margin: 0 10px;
     
 }
 
@@ -59,4 +59,7 @@ p,h2,h3,h4{
 }
 #mainInfo {
     border-bottom: 1px dashed rgb(0, 0, 0);
+}
+.profile{
+    text-align: center;
 }
