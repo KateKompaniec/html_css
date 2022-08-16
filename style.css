@@ -1,9 +1,7 @@
 header{
     font-size: 25px;
     background-color: #fff;
-    width: 100%;
     margin-bottom: 5px;
-    text-align: center;
 }
 table,
 td {
@@ -49,7 +47,7 @@ h3, p.interests_title{
 }
 
 .profile_photo {
-    width: 31%;
+    width: 32%;
     margin: 0 12px;
     float: left;
     display: block;
@@ -85,6 +83,7 @@ h4, p.interests_title{
     text-align: center;
     position: fixed;
     width: 100%;
+    height: 5%;
     bottom: 0;
     left: 0;
 }
