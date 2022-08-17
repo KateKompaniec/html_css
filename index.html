@@ -1,74 +1,121 @@
 <!DOCTYPE html>
 <html lang="uk">
+
 <head>
-  <title>Resume</title>
+  <title>CV Kompaniiets</title>
   <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-  <header id="description">
-    <h1>Kateryna Kompaniiets</h1>
-    <p>Trainee/Junior Fullstack Developer. Looking for a job (Cherkassy or remote)<p>
+  <header id="header">
+    <nav class="menu_bar">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About me</a></li>
+        <li><a href="#">Contacts</a></li>
+      </ul>
+    </nav>
   </header>
   <main class="conteiner">
-    <section class="profile_photo"> <img src="img/picture.jpg"></section>
-    <section id="experience" class="mainInfo">
-      <h3><p>PROFESSIONAL EXPERIENCE</p></h3>
-        <h4><p>Intern in the InterLink</p></h4>
-            <p>Internship program "InCamp" in the company InterLink from <span class="date">08.2022</span> to <span class="date">10.2022</span></p>
-    </section>      
-    <section id="education" class="mainInfo">
-        <h3><p>EDUCATION</p></h3>
-          <h4><p>Bachelor studies</p></h4>
-              <p>Kharkiv National University of V.N.Karazin <br> 125 "Cybersecurity" - CSD <br> <span class="years">2018-2022 </span> </p>
-      </section>  
-      <section id="skills" class="mainInfo">
-        <h3><p>SKILLS</p></h3>
-            <table>
-                <thead>
-                    <tr>
-                        <th>FrontEnd</th>
-                        <th>BackEnd</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>
-                            <ul>
-                                <li>JavaScript</li>
-                                <li>HTML/CSS</li>
-                                <li>React</li>
-                                <li>Angular</li>
-                             </ul>
-                        </td>
-                        <td> <ul>
-                            <li>Node.js</li>
-                            <li>Express</li>
-                            <li>SQL</li>
-                            <li>REST API</li>
-                         </ul></td>
-                    </tr>
-                </tbody>
-            </table>
-      </section>  
-      <section id="languages" class="mainInfo">
-        <h3 class="title_languages"><p>LANGUAGES</p></h3>
-            <ol>
-                <li>Ukrainian - Native</li>
-                <li>English - Intermediate</li>
-            </ol>
-      </section> 
-      <section id="interests" class="mainInfo">
-        <h3> <p class="interests_title">INTERESTS</p></h3>
-            <ul class="interests_list">
-                <li>table tennis</li>
-                <li>volleyball</li>
-                <li>cats</li>
-                <li>films</li>
-             </ul>
-      </section> 
+      <div class="sidebar">
+        <section class="profile">
+        <img src="img/image.jpg">
+        <h1>Kateryna Kompaniiets</h1>
+        <p>Trainee/Junior Fullstack Developer. Looking for a job (Cherkassy or remote)
+        </p>
+        </section>
+       
+      </div>
+    <div class="mainInfo">
+    <section id="experience" >
+      <h3>
+        <p>PROFESSIONAL EXPERIENCE</p>
+      </h3>
+     <div class="description"><h4>
+        <p>Intern in the InterLink</p>
+      </h4>
+      <p>Internship program "InCamp" in the company InterLink from <span class="date">08.2022</span> to <span
+          class="date">10.2022</span></p></div>
+    </section>
+    <section id="education" >
+      <h3>
+        <p>EDUCATION</p>
+      </h3>
+      <div class="description"><h4>
+        <p>Bachelor studies</p>
+      </h4>
+      <p>Kharkiv National University of V.N.Karazin <br> 125 "Cybersecurity" - CSD <br> <span class="years">2018-2022
+        </span> </p> </div>
+    </section>
+    <section id="skills" >
+      <h3>
+        <p>SKILLS</p>
+      </h3>
+      <div class="description"><table>
+        <thead>
+          <tr>
+            <th>FrontEnd</th>
+            <th>BackEnd</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>
+              <ul>
+                <li>JavaScript</li>
+                <li>HTML/CSS</li>
+                <li>React</li>
+                <li>Angular</li>
+              </ul>
+            </td>
+            <td>
+              <ul>
+                <li>Node.js</li>
+                <li>Express</li>
+                <li>SQL</li>
+                <li>REST API</li>
+              </ul>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    </section>
+    <section id="languages" >
+      <h3 class="title_languages">
+        <p>LANGUAGES</p>
+      </h3>
+      <div class="description">
+      <ol class="lang_list">
+        <li>Ukrainian - Native</li>
+        <li>English - Intermediate</li>
+      </ol>
+    </div>
+    </section>
+    <section id="interests">
+      <h3>
+        <p class="interests_title">INTERESTS</p>
+      </h3>
+      <div class="description">
+      <ul class="interests_list">
+        <li>table tennis</li>
+        <li>volleyball </li>
+        <li>cats </li>
+        <li>films </li>
+        <div class="icons">
+        <img src="/img/table-tennis.png" alt="img">
+        <img src="/img/watching-a-movie.png" alt="img">
+        <img src="/img/kitty.png" alt="img">
+        <img src="/img/volleyball.png" alt="img">
+        </div>
+      </ul>
+    </div>
+    </section>
+  </div>
   </main>
   <footer>
     Instagram: <a href="https://www.instagram.com/_kit_kaaaat"> _kit_kaaaat</a>
   </footer>
 </body>
+
 </html>
